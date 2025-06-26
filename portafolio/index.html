@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Jen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8fafc;
+      color: #1e293b;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #0f172a;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #334155;
+    }
+    .project {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .project img {
+      width: 100%;
+      border-radius: 0.75rem;
+      margin: 1rem 0;
+    }
+    .project h2 {
+      font-size: 1.5rem;
+      color: #0f172a;
+      margin-bottom: 0.5rem;
+    }
+    .project ul {
+      list-style: none;
+      margin: 0.5rem 0;
+    }
+    .project ul li::before {
+      content: "✔️ ";
+    }
+    .project a {
+      color: #2563eb;
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+    #contact {
+      text-align: center;
+      margin-top: 3rem;
+    }
+    #contact h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+    }
+    #contact ul li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hola, soy Jen 👩‍💻</h1>
+    <p>Ingeniera de Sistemas apasionada por el desarrollo web. Aquí comparto algunos de mis proyectos destacados.</p>
+  </header>
+
+  <section class="project">
+    <h2>Sitio Personal</h2>
+    <img src="captura_cv.png" alt="Captura sitio personal">
+    <p>Sitio web para presentar mi perfil profesional, habilidades y contacto.</p>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Responsive Design</li>
+    </ul>
+    <a href="#">Ver proyecto</a>
+    <a href="#">Código fuente</a>
+  </section>
+
+  <section class="project">
+    <h2>Gestión de Prácticas Empresariales</h2>
+    <img src="captura_practicas.png" alt="Captura gestión de prácticas">
+    <p>Sistema web para registrar y gestionar prácticas empresariales, con múltiples roles.</p>
+    <ul>
+      <li>PHP, MySQL, JavaScript, Bootstrap</li>
+      <li>Login, CRUD, validación y filtrado</li>
+    </ul>
+    <a href="#">Código fuente</a>
+  </section>
+
+  <section class="project">
+    <h2>Sistema de Reservas Turísticas</h2>
+    <img src="captura_turismo.png" alt="Captura sistema turismo">
+    <p>App para explorar y cotizar hoteles, tours y actividades turísticas en Cartagena.</p>
+    <ul>
+      <li>HTML, CSS, JS, Flask</li>
+      <li>Tarjetas, formulario de cotización</li>
+    </ul>
+    <a href="#">En desarrollo</a>
+  </section>
+
+  <section class="project">
+    <h2>Gestor de Tareas</h2>
+    <img src="to_do_preview.png" alt="Vista previa To-Do App">
+    <p>Aplicación para crear, editar, marcar y eliminar tareas personales.</p>
+    <ul>
+      <li>Flask o PHP, JavaScript, CSS</li>
+      <li>CRUD, manejo de sesiones</li>
+    </ul>
+    <a href="#">Próximamente</a>
+  </section>
+
+  <section class="project">
+    <h2>Tienda Online</h2>
+    <img src="ecommerce_mockup.png" alt="Tienda en línea">
+    <p>Tienda web con catálogo, carrito de compras y panel de administración.</p>
+    <ul>
+      <li>HTML, CSS, JS, PHP o Flask</li>
+      <li>Catálogo, login, carrito</li>
+    </ul>
+    <a href="#">Próximamente</a>
+  </section>
+
+  <section class="project">
+    <h2>Mini Plataforma de Cursos</h2>
+    <img src="learn_app_preview.png" alt="Plataforma de aprendizaje">
+    <p>Plataforma para mostrar cursos y progresos de los usuarios.</p>
+    <ul>
+      <li>HTML, CSS, JS, Flask</li>
+      <li>Contenido personalizado y seguimiento</li>
+    </ul>
+    <a href="#">Próximamente</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>¿Quieres contactarme? Aquí están mis redes:</p>
+    <ul>
+      <li>Email: jen@email.com</li>
+      <li>GitHub: <a href="https://github.com/jen">github.com/jen</a></li>
+    </ul>
+  </section>
+</body>
+</html>
